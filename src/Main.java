@@ -1,4 +1,5 @@
 import NumberGame.launchgame1;
+import StudentGradeCalculator.GradeCalc;
 
 import java.util.Scanner;
 
@@ -30,7 +31,9 @@ public class Main {
         }
         else if(choice==2)
         {
-
+            System.out.println(userName+" Welcome to Student Grade Calculator Console Based Application.");
+            GradeCalc student = new GradeCalc(userName);
+            student.enterMarks();
         }
         else if(choice==3)
         {
