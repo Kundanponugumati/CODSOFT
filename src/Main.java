@@ -1,3 +1,5 @@
+import ATM.atm;
+import ATM.launchAtm;
 import NumberGame.launchgame1;
 import StudentGradeCalculator.GradeCalc;
 
@@ -37,6 +39,9 @@ public class Main {
         }
         else if(choice==3)
         {
+            System.out.println(userName+" Welcome to ATM");
+            launchAtm obj = new launchAtm();
+            obj.compute();
 
         }
         else if(choice==4)
