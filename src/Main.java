@@ -2,6 +2,7 @@ import ATM.atm;
 import ATM.launchAtm;
 import NumberGame.launchgame1;
 import StudentGradeCalculator.GradeCalc;
+import quizApplication.LaunchQuiz;
 
 import java.util.Scanner;
 
@@ -46,7 +47,8 @@ public class Main {
         }
         else if(choice==4)
         {
-
+            LaunchQuiz quiz = new LaunchQuiz();
+            quiz.compute();
         }
         else if(choice==5)
         {
